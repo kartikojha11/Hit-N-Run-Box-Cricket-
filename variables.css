@@ -1,0 +1,170 @@
+/* ===================================================
+   HIT N RUN BOX CRICKET
+   Design System
+   Version : 1.0
+=================================================== */
+
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+:root{
+
+    /*========== COLORS ==========*/
+
+    --color-primary:#0B0B0B;
+    --color-primary-light:#171717;
+
+    --color-accent:#16C55F;
+    --color-accent-dark:#11A84F;
+
+    --color-white:#FFFFFF;
+    --color-light:#F5F5F5;
+    --color-gray:#B7B7B7;
+    --color-border:#2B2B2B;
+
+    --color-overlay:rgba(0,0,0,.65);
+
+    --color-success:#22C55E;
+    --color-warning:#F59E0B;
+    --color-danger:#EF4444;
+
+    /*========== TYPOGRAPHY ==========*/
+
+    --font-family:'Poppins',sans-serif;
+
+    --font-xs:.75rem;
+    --font-sm:.875rem;
+    --font-md:1rem;
+    --font-lg:1.125rem;
+    --font-xl:1.5rem;
+    --font-2xl:2rem;
+    --font-3xl:2.8rem;
+    --font-4xl:4rem;
+
+    --font-light:300;
+    --font-regular:400;
+    --font-medium:500;
+    --font-semibold:600;
+    --font-bold:700;
+    --font-extra:800;
+
+    /*========== SPACING ==========*/
+
+    --space-1:.25rem;
+    --space-2:.5rem;
+    --space-3:.75rem;
+    --space-4:1rem;
+    --space-5:1.5rem;
+    --space-6:2rem;
+    --space-7:3rem;
+    --space-8:4rem;
+    --space-9:5rem;
+
+    /*========== BORDER RADIUS ==========*/
+
+    --radius-sm:8px;
+    --radius-md:14px;
+    --radius-lg:20px;
+    --radius-xl:30px;
+    --radius-round:999px;
+
+    /*========== SHADOWS ==========*/
+
+    --shadow-sm:
+        0 4px 12px rgba(0,0,0,.15);
+
+    --shadow-md:
+        0 10px 30px rgba(0,0,0,.25);
+
+    --shadow-lg:
+        0 18px 40px rgba(0,0,0,.40);
+
+    /*========== TRANSITIONS ==========*/
+
+    --transition-fast:.25s ease;
+    --transition-normal:.35s ease;
+    --transition-slow:.5s ease;
+
+    /*========== CONTAINER ==========*/
+
+    --container-width:1200px;
+
+    /*========== HEADER ==========*/
+
+    --header-height:80px;
+
+    /*========== Z INDEX ==========*/
+
+    --z-dropdown:100;
+    --z-sticky:500;
+    --z-fixed:1000;
+    --z-overlay:1100;
+    --z-modal:1200;
+    --z-tooltip:1300;
+
+}
+
+/* ===========================
+   LARGE DESKTOP
+=========================== */
+
+@media (min-width:1400px){
+
+:root{
+
+    --container-width:1320px;
+
+}
+
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:992px){
+
+:root{
+
+    --font-4xl:3.3rem;
+    --font-3xl:2.4rem;
+    --font-2xl:1.8rem;
+
+}
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+:root{
+
+    --header-height:70px;
+
+    --font-4xl:2.6rem;
+    --font-3xl:2rem;
+    --font-2xl:1.6rem;
+    --font-xl:1.3rem;
+
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+:root{
+
+    --space-7:2.5rem;
+    --space-8:3rem;
+
+}
+
+}
